@@ -1,0 +1,307 @@
+@import url(style.css);
+@import url(fontawesome-free-5.0.8web-fonts-with-cssssontawesome-all.min.css);
+* a {
+  text-decoration: none; }
+
+* p {
+  margin: 0px; }
+
+* h1 {
+  margin: 0px; }
+
+* h2 {
+  margin: 0px; }
+
+header {
+  position: absolute;
+  top: 47px;
+  left: 100px;
+  z-index: 1; }
+  header .nav > li > a:focus,
+  header .nav > li > a:hover {
+    padding: 10px 20px;
+    border-radius: 13px;
+    border: 1px #ffffff solid;
+    background: none;
+    color: #ffffff;
+    text-decoration: none; }
+  header .nav > li > a:focus,
+  header .nav > li > a {
+    padding: 10px 20px;
+    border-radius: 13px;
+    border: 1px transparent solid;
+    background-color: none;
+    color: #ffffff;
+    text-decoration: none; }
+  header .navbar-brand {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold; }
+
+section {
+  position: relative;
+  z-index: 0;
+  padding-top: 292px;
+  padding-bottom: 76px;
+  background-image: url(../images/hbackground_01.png);
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center center; }
+  section h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff; }
+  section p {
+    height: 265px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 44px; }
+  section a {
+    display: block;
+    margin: auto;
+    text-align: center; }
+
+section1 h1 {
+  font-size: 20px;
+  color: #333b46;
+  margin-top: 114px; }
+section1 p {
+  font-size: 14px;
+  color: #81868e;
+  margin-top: 49px;
+  margin-bottom: 0px; }
+section1 a {
+  display: inline-block;
+  margin-top: 36px;
+  font-size: 16px;
+  color: #333b46;
+  border: solid #333b46 1px;
+  padding: 12px 29px 11px 29px;
+  border-radius: 14px;
+  margin-bottom: 100px; }
+section1 a:hover {
+  color: #333b46;
+  text-decoration: none; }
+section1 .col-sm-6 {
+  margin-top: 80px;
+  background-image: url(../images/ipad_new_03.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 340px; }
+
+section2 .container-fluid {
+  background: #f3f3f3;
+  background-size: cover;
+  margin-top: 63px; }
+  section2 .container-fluid h1 {
+    color: #333b46;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px; }
+  section2 .container-fluid p {
+    color: #81868e;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 41px; }
+  section2 .container-fluid .heart1 {
+    margin-left: 70px; }
+  section2 .container-fluid a {
+    display: inline-block;
+    background: #81868e;
+    margin-left: 27px;
+    border-radius: 28px;
+    width: 53px;
+    height: 53px;
+    position: relative;
+    margin-top: 62px; }
+    section2 .container-fluid a .heart {
+      left: 26%;
+      top: 32%;
+      position: absolute; }
+    section2 .container-fluid a .mouse {
+      left: 35%;
+      top: 17%;
+      position: absolute; }
+    section2 .container-fluid a .lamp {
+      left: 32%;
+      top: 22%;
+      position: absolute; }
+  section2 .container-fluid a:hover {
+    background: #19bd9a; }
+  section2 .container-fluid h2 {
+    font-size: 20px;
+    color: #464646;
+    margin-top: 62px; }
+  section2 .container-fluid span {
+    color: #19bd9a;
+    font-weight: bold; }
+  section2 .container-fluid .col-sm-5 p {
+    margin-top: 116px;
+    text-align: left;
+    margin-bottom: 102px; }
+  section2 .container-fluid .col-sm-4 p {
+    margin-top: 40px;
+    text-align: left; }
+
+section3 .fourth .hov {
+  height: 319px;
+  position: relative;
+  padding: 0px; }
+  section3 .fourth .hov:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: #FFF;
+    text-align: center;
+    padding-top: 150px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: lighter;
+    opacity: 0.8; }
+  section3 .fourth .hov:hover:after {
+    display: none; }
+section3 .fourth .first {
+  background-image: url("../images/whiskey1_03.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  section3 .fourth .first:after {
+    content: "+"; }
+section3 .fourth .second {
+  background-image: url("../images/whiskey2_03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  section3 .fourth .second:after {
+    content: "VINTAGE"; }
+section3 .fourth .third {
+  background-image: url("../images/book_03.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  section3 .fourth .third:after {
+    content: "Branding"; }
+section3 .greenline {
+  background: url(../images/greenlinebot_02.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  section3 .greenline .col-sm-7 p {
+    margin-bottom: 51px;
+    margin-top: 46px;
+    font-size: 20px;
+    color: #ffffff; }
+    section3 .greenline .col-sm-7 p span {
+      font-weight: bold; }
+  section3 .greenline .col-sm-2 a {
+    margin-top: 38px;
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    padding: 11px 23px 11px 24px;
+    border-radius: 18px; }
+  section3 .greenline .col-sm-2 a:hover {
+    text-decoration: none; }
+section3 .projects h2 {
+  font-size: 20px;
+  color: #333b46;
+  margin-top: 82px;
+  text-align: center; }
+section3 .projects p {
+  font-size: 14px;
+  color: #81868e;
+  margin-top: 41px;
+  text-align: center;
+  margin-bottom: 61px; }
+
+section4 .container-fluid {
+  padding-bottom: 135px;
+  background: #f3f3f3; }
+  section4 .container-fluid h2 {
+    font-size: 20px;
+    color: #333b46;
+    margin-top: 81px;
+    text-align: center; }
+  section4 .container-fluid p {
+    font-size: 14px;
+    color: #81868e;
+    margin-top: 41px;
+    text-align: center;
+    margin-bottom: 64px; }
+  section4 .container-fluid a {
+    display: block;
+    background: #81868e;
+    border-radius: 28px;
+    width: 53px;
+    height: 53px;
+    position: relative;
+    margin-bottom: 17px; }
+  section4 .container-fluid .plug {
+    margin-bottom: 0px; }
+  section4 .container-fluid a:hover {
+    background: #19bd9a; }
+  section4 .container-fluid .col-sm-4 h2 {
+    font-size: 20px;
+    color: #464646;
+    margin-top: 0px;
+    text-align: left; }
+  section4 .container-fluid .col-sm-4 p {
+    font-size: 16px;
+    color: #81868e;
+    text-align: left;
+    margin-top: 35px; }
+  section4 .container-fluid .col-sm-4 span {
+    color: #19bd9a;
+    font-weight: bold;
+    text-align: left; }
+  section4 .container-fluid .col-sm-4 .smaller {
+    font-size: 14px;
+    margin-top: 42px;
+    margin-bottom: 0px; }
+  section4 .container-fluid .col-sm-5 .progress {
+    margin-top: 56px; }
+    section4 .container-fluid .col-sm-5 .progress .progress-bar {
+      font-size: 16px; }
+section4 .monitor {
+  background: none;
+  background-image: url(../images/backgroundclo_02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 0px; }
+  section4 .monitor .col-sm-6 h2 {
+    color: #f3f3f3;
+    font-size: 20px;
+    margin-top: 80px;
+    text-align: left; }
+  section4 .monitor .col-sm-6 p {
+    font-size: 16px;
+    color: #b2b3b3;
+    margin-top: 60px;
+    text-align: left; }
+  section4 .monitor .col-sm-6 .signature {
+    color: #b2b3b3;
+    font-size: 14px;
+    margin-top: 34px; }
+    section4 .monitor .col-sm-6 .signature span {
+      color: #19bd9a;
+      font-weight: bold; }
+  section4 .monitor .col-sm-5 img {
+    margin-top: -38px;
+    text-align: center; }
+
+section5 .container-fluid {
+  background: #f3f3f3; }
+  section5 .container-fluid .container h2 {
+    margin-top: 80px;
+    font-size: 20px;
+    color: #333b46;
+    text-align: center; }
+  section5 .container-fluid .container p {
+    margin-top: 41px;
+    font-size: 14px;
+    color: #81868e;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
