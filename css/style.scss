@@ -1,5 +1,23 @@
 @import "style.css";
 @import "fontawesome-free-5.0.8\web-fonts-with-css\css\fontawesome-all.min.css";
+@font-face {
+    font-family: 'SourceSansProLight';
+    src: url('../fonts/SourceSansProLight.eot');
+    src: url('../fonts/SourceSansProLight.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansProLight.woff2') format('woff2'),
+         url('../fonts/SourceSansProLight.woff') format('woff'),
+         url('../fonts/SourceSansProLight.ttf') format('truetype'),
+         url('../fonts/SourceSansProLight.svg#SourceSansProLight') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/OpenSansRegular.eot');
+    src: url('../fonts/OpenSansRegular.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansRegular.woff2') format('woff2'),
+         url('../fonts/OpenSansRegular.woff') format('woff'),
+         url('../fonts/OpenSansRegular.ttf') format('truetype'),
+         url('../fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
 * a {
     text-decoration: none;
 }
@@ -30,7 +48,7 @@ header {
     .nav > li > a:focus,
     .nav > li > a:hover {
         padding: 10px 20px;
-        border-radius: 13px;
+        border-radius: 16px;
         border: 1px #ffffff solid;
         background: none;
         color: #ffffff;
@@ -38,8 +56,9 @@ header {
     }
     .nav > li > a:focus,
     .nav > li > a {
+        font-family: 'OpenSansRegular';
         padding: 10px 20px;
-        border-radius: 13px;
+        border-radius: 16px;
         border: 1px transparent solid;
         background-color: none;
         color: #ffffff;
@@ -65,9 +84,11 @@ section {
         text-align: center;
         font-size: 35px;
         color: #ffffff;
+        font-family: 'SourceSansProLight';
     }
 
     p {
+        font-family:"OpenSansRegular";
         height: 265px;
         text-align: center;
         font-size: 16px;
@@ -86,12 +107,14 @@ section1 {
         font-size: 20px;
         color: #333b46;
         margin-top: 114px;
+        font-family: 'SourceSansProLight';
     }
     p {
         font-size: 14px;
         color: #81868e;
         margin-top: 49px;
         margin-bottom: 0px;
+        font-family:"OpenSansRegular";
     }
     a {
         display: inline-block;
@@ -102,6 +125,7 @@ section1 {
         padding: 12px 29px 11px 29px;
         border-radius: 14px;
         margin-bottom: 100px;
+        font-family:"OpenSansRegular";
     }
     a:hover {
         color: #333b46;
@@ -128,12 +152,14 @@ section2 {
             font-size: 20px;
             text-align: center;
             margin-top: 80px;
+            font-family: 'SourceSansProLight';
         }
         p {
             color: #81868e;
             font-size: 14px;
             text-align: center;
             margin-top: 41px;
+            font-family:"OpenSansRegular";
         }
 
         .heart1 {
@@ -172,6 +198,7 @@ section2 {
             font-size: 20px;
             color: #464646;
             margin-top: 62px;
+            font-family:"OpenSansRegular";
         }
         span {
             color: #19bd9a;
@@ -268,6 +295,7 @@ section3 {
                 border: solid 1px #ffffff;
                 padding: 11px 23px 11px 24px;
                 border-radius: 18px;
+                margin-bottom: 38px;
 
             }
             a:hover {
@@ -281,6 +309,7 @@ section3 {
             color: #333b46;
             margin-top: 82px;
             text-align: center;
+            font-family:'SourceSansProLight';
         }
         p {
             font-size: 14px;
@@ -288,6 +317,7 @@ section3 {
             margin-top: 41px;
             text-align: center;
             margin-bottom: 61px;
+            font-family:"OpenSansRegular";
         }
     }
 }
@@ -302,6 +332,7 @@ section4 {
             color: #333b46;
             margin-top: 81px;
             text-align: center;
+            font-family: 'SourceSansProLight';
         }
         p {
             font-size: 14px;
@@ -309,15 +340,17 @@ section4 {
             margin-top: 41px;
             text-align: center;
             margin-bottom: 64px;
+            font-family:"OpenSansRegular";
         }
         a {
-            display: block;
+            display: inline-block;
             background: #81868e;
             border-radius: 28px;
             width: 53px;
             height: 53px;
             position: relative;
             margin-bottom: 17px;
+            font-family:"OpenSansRegular";
         }
         .plug {
             margin-bottom: 0px;
@@ -331,12 +364,14 @@ section4 {
                 color: #464646;
                 margin-top: 0px;
                 text-align: left;
+                font-family:"OpenSansRegular";
             }
             p {
                 font-size: 16px;
                 color: #81868e;
                 text-align: left;
                 margin-top: 35px;
+                font-family:"OpenSansRegular";
             }
             span {
                 color: #19bd9a;
@@ -370,6 +405,7 @@ section4 {
                 font-size: 20px;
                 margin-top: 80px;
                 text-align: left;
+                font-family: 'SourceSansProLight';
 
             }
             p {
@@ -377,6 +413,7 @@ section4 {
                 color: #b2b3b3;
                 margin-top: 60px;
                 text-align: left;
+                font-family:"OpenSansRegular";
             }
             .signature {
                 color: #b2b3b3;
@@ -407,12 +444,14 @@ section5 {
                 font-size: 20px;
                 color: #333b46;
                 text-align: center;
+                font-family: 'SourceSansProLight';
             }
             p {
                 margin-top: 41px;
                 font-size: 14px;
                 color: #81868e;
                 text-align: center;
+                font-family:"OpenSansRegular";
 
             }
 
