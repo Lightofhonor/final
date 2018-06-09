@@ -8,10 +8,14 @@
     <link href="fonts/fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-2.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/modernizr.custom.70736.js"></script>
     <script src="js/script.js"></script>
+    <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
 
 
 </head>
@@ -36,7 +40,7 @@
             </div>
         </nav>
     </header>
-    <section>
+    <section class="section0">
         <div class="container">
             <div class="row">
                 <h1>WE ARE CODE CAFE</h1>
@@ -53,7 +57,7 @@
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
                     <a href="#">Read More</a>
                 </div>
-                <div class="col-sm-6"></div>
+                <div class="col-sm-6 tablet"></div>
             </div>
         </div>
     </section>
@@ -65,16 +69,16 @@
                         <h1>DETAILS ABOUT BOUNCY</h1>
                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui <br> blanditiis praesentium</p>
                         <div class="col-sm-offset-4 col-sm-4 col-sm-offset-4">
-                            <a class="heart1" href="#"><img class="heart" src="images/heartb_03.png"></a>
-                            <a href="#"><img class="mouse" src="images/mouseb_03.png"></a>
-                            <a href="#"><img class="lamp" src="images/lampb_03.png"></a>
+                            <a href="#"><img src="images/hearticon.png"></a>
+                            <a href="#"><img src="images/mouseicon.png"></a>
+                            <a href="#"><img src="images/lampicon.png"></a>
                         </div>
                         <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4 col-sm-offset-1">
+                            <div class="col-sm-offset-1 col-sm-4 col-sm-offset-1 creative">
                                 <h2>Creative Ideas</h2>
                                 <p>At <span>vero</span> eos et accusamus et iusto odio dignissimos <strong>ducimus</strong> qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores </p>
                             </div>
-                            <div class="col-sm-5 col-sm-offset-1">
+                            <div class="col-sm-5 col-sm-offset-1 ctext">
                                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque <strong>corrupti quos</strong> dolores et quas molestias <span>excepturi</span> sint occaecati cupiditate non provident, <strong>similique</strong> sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem r</p>
                             </div>
                         </div>
@@ -101,10 +105,10 @@
                 </div>
             </div>
             <div class="row greenline">
-                <div class="col-sm-offset-1 col-sm-7">
+                <div class="col-sm-offset-1 col-sm-7 textf">
                     <p>At vero eos et <span>accusamus</span> et iusto odio dignissimos ducimus qui blanditiis</p>
                 </div>
-                <div class="col-sm-offset-1 col-sm-2 col-sm-offset-1"><a href="#">Submit Now</a></div>
+                <div class="col-sm-offset-1 col-sm-2 col-sm-offset-1 submit"><a href="#">Submit Now</a></div>
             </div>
 
         </div>
@@ -122,38 +126,64 @@
                             <a href="#"><img src="images/gamepad_03.png"></a>
                             <a class="plug" href="#"><img src="images/plug_03.png"></a>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-4 gdesign">
                             <h2>Graphic Design</h2>
                             <p>At vero eos et accusamus et <span>iusto</span> odio dignissimos <b>ducimus</b> qui blanditiis praesentium voluptatum deleniti</p>
                             <p class="smaller">quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, <span>similique sunt</span> in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
                         </div>
-                        <div class="col-sm-5 col-sm-offset-1">
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Branding 80%</div>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Web Design 75%</div>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                                    UI/UX 60%
-                                </div>
-                            </div>
 
+                        <div class="col-sm-5 col-sm-offset-1">
+                            <div class="col-md-3 col-sm-4">
+                                <div class="progress branding">
+                                    <span class="progress-left">
+                    <span class="progress-bar"></span>
+                                    </span>
+                                    <span class="progress-right">
+                    <span class="progress-bar"></span>
+                                    </span>
+                                    <div class="progress-value">80%</div>
+                                </div>
+                                <p class="plegend">Branding</p>
+                            </div>
+                            <div class="col-md-3 col-sm-4">
+                                <div class="progress webdesign">
+                                    <span class="progress-left">
+                    <span class="progress-bar"></span>
+                                    </span>
+                                    <span class="progress-right">
+                    <span class="progress-bar"></span>
+                                    </span>
+                                    <div class="progress-value">75%</div>
+                                </div>
+                                <p class="plegend">Web Design</p>
+                            </div>
+                            <div class="col-md-3 col-sm-4">
+                                <div class="progress uiux">
+                                    <span class="progress-left">
+                    <span class="progress-bar"></span>
+                                    </span>
+                                    <span class="progress-right">
+                    <span class="progress-bar"></span>
+                                    </span>
+                                    <div class="progress-value">60%</div>
+                                </div>
+                                <p class="plegend">UI/UX</p>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid monitor">
+        <div class="container-fluid desktop">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 impressed">
                         <h2>IMPRESSED ?</h2>
                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</p>
                         <p class="signature"> <b>- Abdullah Noman</b><br>Creatice Director, <span>Code Cafe</span></p>
                     </div>
-                    <div class="col-sm-offset-1 col-sm-5">
+                    <div class="col-sm-offset-1 col-sm-5 desktoppic">
                         <img src="images/monitorb_03.png">
                     </div>
                 </div>
@@ -169,9 +199,400 @@
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui<br>blanditiis praesentium</p>
                 </div>
             </div>
+            <div class="container">
 
+                <!-- Codrops top bar -->
+                <div class="codrops-top clearfix">
+                    <a href="http://tympanus.net/Tutorials/HeadingSets/">
+                    <strong>&laquo; Previous Demo: </strong>Heading Set Styling
+                </a>
+                    <span class="right">
+                	<a href="http://www.idleformat.com/">Images by Idleformat</a>
+                    <a href="http://tympanus.net/codrops/?p=11836">
+                        <strong>Back to the Codrops Article</strong>
+                    </a>
+                </span>
+                </div>
+                <!--/ Codrops top bar -->
+
+                <div class="main">
+                    <header class="clearfix">
+
+                        <h1>Gamma Gallery<span>A responsive image gallery experiment</span></h1>
+
+                        <div class="support-note">
+                            <span class="note-ie">Sorry, only modern browsers.</span>
+                        </div>
+
+                    </header>
+
+                    <div class="gamma-container gamma-loading" id="gamma-container">
+
+                        <ul class="gamma-gallery">
+
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/picture7_03.png" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                                    <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                                    <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                                    <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                                    <div data-src="images/xsmall/3.jpg"></div>
+                                    <noscript>
+									<img src="images/xsmall/3.jpg" alt="img03"/>
+								</noscript>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="gamma-overlay"></div>
+
+                        <div id="loadmore" class="loadmore">Example for loading more items...</div>
+
+                    </div>
+
+                </div>
+                <!--/main-->
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+            <script src="js/jquery.masonry.min.js"></script>
+            <script src="js/jquery.history.js"></script>
+            <script src="js/js-url.min.js"></script>
+            <script src="js/jquerypp.custom.js"></script>
+            <script src="js/gamma.js"></script>
+            <script type="text/javascript">
+                $(function() {
+
+                    var GammaSettings = {
+                        // order is important!
+                        viewport: [{
+                            width: 1200,
+                            columns: 5
+                        }, {
+                            width: 900,
+                            columns: 4
+                        }, {
+                            width: 500,
+                            columns: 3
+                        }, {
+                            width: 320,
+                            columns: 2
+                        }, {
+                            width: 0,
+                            columns: 2
+                        }]
+                    };
+
+                    Gamma.init(GammaSettings, fncallback);
+                    // Example how to add more items (just a dummy):
+
+                    var page = 0,
+                        items = ['<li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li>']
+
+                    function fncallback() {
+
+                        $('#loadmore').show().on('click', function() {
+
+                            ++page;
+                            var newitems = items[page - 1]
+                            if (page <= 1) {
+
+                                Gamma.add($(newitems));
+
+                            }
+                            if (page === 1) {
+
+                                $(this).remove();
+
+                            }
+
+                        });
+
+                    }
+
+                });
+
+            </script>
         </div>
-    </section5>
+        <div class="container">
+            <div class="row">
+                <div class="startproject">
+                    <p>At vero eos et <strong>accusamus</strong> et iusto odio <strong>dignissimos</strong> ducimus qui blanditiis </p>
+                    <div class="centering"><a href="#">Start Project</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section6">
+
+    </section>
 </body>
 
 </html>
