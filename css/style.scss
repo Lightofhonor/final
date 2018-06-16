@@ -1,7 +1,7 @@
 @import "style.css";
 @import "fontawesome-free-5.0.8\web-fonts-with-css\css\fontawesome-all.min.css";
 @font-face {
-    font-family: 'SourceSansProLight';
+    font-family: 'OpenSansBold';
     src: url('../fonts/SourceSansProLight.eot');
     src: url('../fonts/SourceSansProLight.eot') format('embedded-opentype'),
     url('../fonts/SourceSansProLight.woff2') format('woff2'),
@@ -27,6 +27,34 @@
     font-weight: normal;
     font-style: normal;
 
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../fonts/OpenSansBold.eot');
+    src: url('../fonts/OpenSansBold.eot') format('embedded-opentype'),
+    url('../fonts/OpenSansBold.woff2') format('woff2'),
+    url('../fonts/OpenSansBold.woff') format('woff'),
+    url('../fonts/OpenSansBold.ttf') format('truetype'),
+    url('../fonts/OpenSansBold.svg#OpenSansBold') format('svg');
+}
+@font-face {
+    font-family: 'SourceSansProBlack';
+    src: url('../fonts/SourceSansProBlack.eot');
+    src: url('../fonts/SourceSansProBlack.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansProBlack.woff2') format('woff2'),
+         url('../fonts/SourceSansProBlack.woff') format('woff'),
+         url('../fonts/SourceSansProBlack.ttf') format('truetype'),
+         url('../fonts/SourceSansProBlack.svg#SourceSansProBlack') format('svg');
+}
+@font-face {
+    font-family: 'SourceSansProLight';
+    src: url('../fonts/SourceSansProLight.eot');
+    src: url('../fonts/SourceSansProLight.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansProLight.woff2') format('woff2'),
+         url('../fonts/SourceSansProLight.woff') format('woff'),
+         url('../fonts/SourceSansProLight.ttf') format('truetype'),
+         url('../fonts/SourceSansProLight.svg#SourceSansProLight') format('svg');
 }
 
 * a {
@@ -612,10 +640,55 @@ header {
             text-decoration: none;
             text-align: center;
         }
-        .centering{
+        .centering {
             text-align: center;
         }
     }
 }
 
 .section6 {}
+
+
+.section7 {
+    background: #f3f3f3;
+    h2 {
+        font-size: 20px;
+        color: #333b46;
+        margin-top: 80px;
+        text-align: center;
+        font-family: 'SourceSansProLight';
+    }
+    p {
+        font-size: 14px;
+        color: #81868e;
+        margin-top: 41px;
+        text-align: center;
+        margin-bottom: 61px;
+        font-family: "OpenSansRegular";
+    }
+    .plans {
+        background: #f3f3f3;
+        margin-bottom: 101px;
+        h3 {
+            font-size: 20px;
+            color: #ffffff;
+            padding: 27px 61px 26px 58px;
+            text-align: center;
+            font-family: 'OpenSansBold';
+            background-color: #19bd9a;
+        }
+        p {
+            text-align: center;
+            padding: 67px 64px 107px 67px;
+            font-family: "OpenSansRegular";
+            font-size: 20px;
+            span {
+                font-size: 42px;
+                color: #19bd9a;
+                font-family: 'SourceSansProBlack';
+            }
+
+        }
+    }
+
+}
