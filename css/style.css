@@ -499,4 +499,42 @@ header {
         color: #19bd9a;
         font-family: 'SourceSansProBlack'; }
 
+.section8 {
+  background-image: url(../images/subscribe.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .section8 h2 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'SourceSansProLight';
+    margin-bottom: 43px; }
+  .section8 p {
+    text-align: center;
+    font-family: "OpenSansRegular";
+    font-size: 14px;
+    color: #81868e;
+    margin-bottom: 61px; }
+  .section8 form {
+    margin-bottom: 100px; }
+    .section8 form input {
+      font-family: "OpenSansRegular";
+      font-size: 14px;
+      color: #cfd3d4;
+      padding-top: 15px;
+      padding-bottom: 14px;
+      padding-left: 22px;
+      border: solid 1px #81858d;
+      box-sizing: content-box;
+      width: 358px; }
+    .section8 form button {
+      padding: 15px 50px;
+      background: #19bd99;
+      font-family: "OpenSansRegular";
+      font-size: 14px;
+      color: #ffffff;
+      border: none;
+      margin-left: 9px; }
+
 /*# sourceMappingURL=style.css.map */

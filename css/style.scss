@@ -38,23 +38,25 @@
     url('../fonts/OpenSansBold.ttf') format('truetype'),
     url('../fonts/OpenSansBold.svg#OpenSansBold') format('svg');
 }
+
 @font-face {
     font-family: 'SourceSansProBlack';
     src: url('../fonts/SourceSansProBlack.eot');
     src: url('../fonts/SourceSansProBlack.eot') format('embedded-opentype'),
-         url('../fonts/SourceSansProBlack.woff2') format('woff2'),
-         url('../fonts/SourceSansProBlack.woff') format('woff'),
-         url('../fonts/SourceSansProBlack.ttf') format('truetype'),
-         url('../fonts/SourceSansProBlack.svg#SourceSansProBlack') format('svg');
+    url('../fonts/SourceSansProBlack.woff2') format('woff2'),
+    url('../fonts/SourceSansProBlack.woff') format('woff'),
+    url('../fonts/SourceSansProBlack.ttf') format('truetype'),
+    url('../fonts/SourceSansProBlack.svg#SourceSansProBlack') format('svg');
 }
+
 @font-face {
     font-family: 'SourceSansProLight';
     src: url('../fonts/SourceSansProLight.eot');
     src: url('../fonts/SourceSansProLight.eot') format('embedded-opentype'),
-         url('../fonts/SourceSansProLight.woff2') format('woff2'),
-         url('../fonts/SourceSansProLight.woff') format('woff'),
-         url('../fonts/SourceSansProLight.ttf') format('truetype'),
-         url('../fonts/SourceSansProLight.svg#SourceSansProLight') format('svg');
+    url('../fonts/SourceSansProLight.woff2') format('woff2'),
+    url('../fonts/SourceSansProLight.woff') format('woff'),
+    url('../fonts/SourceSansProLight.ttf') format('truetype'),
+    url('../fonts/SourceSansProLight.svg#SourceSansProLight') format('svg');
 }
 
 * a {
@@ -691,4 +693,50 @@ header {
         }
     }
 
+}
+
+.section8 {
+    background-image: url(../images/subscribe.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    h2 {
+        font-size: 20px;
+        color: #ffffff;
+        margin-top: 80px;
+        text-align: center;
+        font-family: 'SourceSansProLight';
+        margin-bottom: 43px;
+    }
+
+    p {
+        text-align: center;
+        font-family: "OpenSansRegular";
+        font-size: 14px;
+        color: #81868e;
+        margin-bottom: 61px;
+    }
+    form {
+        margin-bottom: 100px;
+        input {
+            font-family: "OpenSansRegular";
+            font-size: 14px;
+            color: #cfd3d4;
+            padding-top: 15px;
+            padding-bottom: 14px;
+            padding-left: 22px;
+            border: solid 1px #81858d;
+            box-sizing: content-box;
+            width: 358px;
+
+        }
+        button {
+            padding: 15px 50px;
+            background: #19bd99;
+            font-family: "OpenSansRegular";
+            font-size: 14px;
+            color: #ffffff;
+            border: none;
+            margin-left: 9px;
+        }
+    }
 }
