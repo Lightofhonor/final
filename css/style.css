@@ -571,4 +571,33 @@ header {
     background-size: contain;
     text-align: center; }
 
+.section10 {
+  background: #ffffff; }
+  .section10 form {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding: 80px 214px 129px 213px; }
+    .section10 form input {
+      font-family: "OpenSansRegular";
+      font-size: 14px;
+      color: #a9a9a9;
+      padding-left: 20px;
+      padding-top: 15px;
+      padding-bottom: 14px;
+      border: 1px solid #d8dce0; }
+    .section10 form textarea {
+      resize: none;
+      border: 1px solid #d8dce0;
+      height: 188px;
+      margin-top: 29px;
+      margin-bottom: 30px; }
+    .section10 form button {
+      padding-top: 21px;
+      padding-bottom: 20px;
+      font-family: "OpenSansRegular";
+      font-size: 16px;
+      color: #ffffff;
+      text-align: center;
+      background: #19bd9a; }
+
 /*# sourceMappingURL=style.css.map */
