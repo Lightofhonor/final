@@ -25,6 +25,11 @@
   font-family: 'SourceSansProLight';
   src: url("../fonts/SourceSansProLight.eot");
   src: url("../fonts/SourceSansProLight.eot") format("embedded-opentype"), url("../fonts/SourceSansProLight.woff2") format("woff2"), url("../fonts/SourceSansProLight.woff") format("woff"), url("../fonts/SourceSansProLight.ttf") format("truetype"), url("../fonts/SourceSansProLight.svg#SourceSansProLight") format("svg"); }
+@font-face {
+  font-family: 'big_johnregular';
+  src: url("big_john-webfont.woff2") format("woff2"), url("big_john-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 * a {
   text-decoration: none; }
 
@@ -599,5 +604,33 @@ header {
       color: #ffffff;
       text-align: center;
       background: #19bd9a; }
+
+.section11 .map {
+  height: 497px;
+  margin-top: 129px; }
+
+footer {
+  background: #f3f3f3;
+  padding-top: 80px;
+  padding-bottom: 90px; }
+  footer h2 {
+    font-size: 25px;
+    font-family: 'big_johnregular';
+    text-align: center;
+    color: #323a45;
+    padding-bottom: 25px;
+    margin: auto; }
+  footer p {
+    font-size: 14px;
+    font-family: 'OpenSansRegular';
+    text-align: center;
+    color: #81868e;
+    padding-bottom: 37px;
+    margin: auto; }
+  footer p a {
+    display: inline-block;
+    margin-left: 10px; }
+  footer p a:first-child {
+    margin-left: 0px; }
 
 /*# sourceMappingURL=style.css.map */
